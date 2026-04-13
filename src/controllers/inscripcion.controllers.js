@@ -447,7 +447,7 @@ await sendEmail({
         <p style="font-size: 16px; line-height: 1.7; margin-bottom: 30px;">
           ${usuarioMoodleNuevo
         ? `🔑 <strong>Usuario:</strong> ${cedula} <br>
-               🔒 <strong>Contraseña:</strong> UNICAP.${cedula}*`
+               🔒 <strong>Contraseña:</strong> Unicap.${cedula}*`
         : `Ya tienes un usuario registrado en nuestra plataforma. Usa tus credenciales habituales para ingresar.`}
         </p>
 
