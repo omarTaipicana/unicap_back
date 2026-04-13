@@ -22,7 +22,7 @@ const create = catchError(async (req, res) => {
       
       <!-- Encabezado con logo -->
       <div style="text-align: center; background-color: #a1f48f; padding: 20px;">
-        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png" alt="EDUKA" style="width: 150px;" />
+        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png" alt="EDUKA" style="width: 150px;" />
       </div>
 
       <!-- Cuerpo del mensaje -->
@@ -58,7 +58,7 @@ const create = catchError(async (req, res) => {
     <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; color: #333;">
       <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
         <div style="text-align: center; background-color: #a1f48f; padding: 20px;">
-          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png" alt="EDUKA" style="width: 150px;" />
+          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png" alt="EDUKA" style="width: 150px;" />
         </div>
         <div style="padding: 30px; text-align: center;">
           <h2 style="color: #a1f48f;">¡Hola ${nombres}!</h2>

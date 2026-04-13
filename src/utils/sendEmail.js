@@ -7,7 +7,7 @@ const sendEmail = (options) => new Promise((resolve, reject) => {
         port: 465,                  // o 587 si prefieres TLS
         secure: true,               // true para 465, false para 587
         auth: {
-            user: process.env.EMAIL,      // ej: noreplly@unical-educ.com
+            user: process.env.EMAIL,      // ej: noreply@unicap-edu.com
             pass: process.env.PASSWORD,   // contraseña del buzón de Hostinger
         },
         tls: {
@@ -16,7 +16,7 @@ const sendEmail = (options) => new Promise((resolve, reject) => {
     });
 
     const mailOptions = {
-        from: `"UNICAL" <noreplly@unical-educ.com>`,
+        from: `"UNICAP" <noreply@unicap-edu.com>`,
         ...options,
     };
     transporter.sendMail(mailOptions, (error, info) => {

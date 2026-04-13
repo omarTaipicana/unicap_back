@@ -360,7 +360,7 @@ const create = catchError(async (req, res) => {
 
 await sendEmail({
   to: user.email,
-  subject: "✅ Pago registrado - UNICAL",
+  subject: "✅ Pago registrado - UNICAP",
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
     
@@ -369,12 +369,12 @@ await sendEmail({
       <!-- Header -->
       <div style="
         text-align: center;
-        background: radial-gradient(circle at center, #ffffff 0%, #e8ecff 30%, #2f3f8f 70%, #1B2A5B 100%);
+         background:  #1B2A5B;
         padding: 50px 20px;
       ">
         
-        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-             alt="UNICAL"
+        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+             alt="UNICAP"
              style="
                width: 240px;
                max-width: 100%;
@@ -485,7 +485,7 @@ await sendEmail({
       <div style="background-color: #f0f0f0; text-align: center; padding: 20px; font-size: 13px; color: #666;">
         <p>Este es un correo automático, por favor no respondas a este mensaje.</p>
         <p style="margin-top: 15px;">
-          © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+          © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
         </p>
       </div>
 

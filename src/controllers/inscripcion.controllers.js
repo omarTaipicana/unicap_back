@@ -355,7 +355,7 @@ const create = catchError(async (req, res) => {
       console.error("❌ No se pudo registrar usuario en Moodle. Inscripción local NO creada.");
 
       return res.status(502).json({
-        message: "No se pudo registrar el usuario en la plataforma académica. Por favor verifica si tu usuario Unical registra correctamente tu cedula de identidad, contacta a soporte para modificaciones."
+        message: "No se pudo registrar el usuario en la plataforma académica. Por favor verifica si tu usuario UNICAP registra correctamente tu cedula de identidad, contacta a soporte para modificaciones."
       });
     }
     else {
@@ -390,7 +390,7 @@ const create = catchError(async (req, res) => {
   // Enviar email
 await sendEmail({
   to: email,
-  subject: "Inscripción confirmada - UNICAL",
+  subject: "Inscripción confirmada - UNICAP",
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
     
@@ -399,12 +399,12 @@ await sendEmail({
       <!-- Header -->
       <div style="
         text-align: center;
-        background: radial-gradient(circle at center, #ffffff 0%, #e8ecff 30%, #2f3f8f 70%, #1B2A5B 100%);
+        background:  #1B2A5B;
         padding: 50px 20px;
       ">
         
-        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-             alt="UNICAL"
+        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+             alt="UNICAP"
              style="
                width: 240px;
                max-width: 100%;
@@ -440,14 +440,14 @@ await sendEmail({
         </h2>
         
         <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
-          Te damos la bienvenida a <strong>UNICAL - Universidad Integral del Caribe y América Latina</strong>. 
+          Te damos la bienvenida a <strong>UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ</strong>. 
           Nos alegra que formes parte de nuestra comunidad académica.
         </p>
 
         <p style="font-size: 16px; line-height: 1.7; margin-bottom: 30px;">
           ${usuarioMoodleNuevo
         ? `🔑 <strong>Usuario:</strong> ${cedula} <br>
-               🔒 <strong>Contraseña:</strong> Unical.${cedula}*`
+               🔒 <strong>Contraseña:</strong> UNICAP.${cedula}*`
         : `Ya tienes un usuario registrado en nuestra plataforma. Usa tus credenciales habituales para ingresar.`}
         </p>
 
@@ -499,7 +499,7 @@ await sendEmail({
         <p>Este es un correo automático, por favor no respondas a este mensaje.</p>
        
         <p style="margin-top: 20px;">
-          © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+          © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
         </p>
       </div>
       

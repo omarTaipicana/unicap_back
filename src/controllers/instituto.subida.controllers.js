@@ -188,7 +188,7 @@ const subirCertificadosFirmados = catchError(async (req, res) => {
 
 await sendEmail({
   to: user.email,
-  subject: "🎓 Tu certificado está listo - UNICAL",
+  subject: "🎓 Tu certificado está listo - UNICAP",
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
     
@@ -200,12 +200,12 @@ await sendEmail({
       <!-- Header -->
       <div style="
         text-align: center;
-        background: radial-gradient(circle at center, #ffffff 0%, #e8ecff 30%, #2f3f8f 70%, #1B2A5B 100%);
+         background:  #1B2A5B;
         padding: 50px 20px;
       ">
         
-        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-             alt="UNICAL"
+        <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+             alt="UNICAP"
              style="
                width: 240px;
                max-width: 100%;
@@ -280,7 +280,7 @@ await sendEmail({
       <div style="background-color: #f0f0f0; padding: 25px; text-align: center; font-size: 13px; color: #666;">
         <p>Este es un correo automático, por favor no respondas a este mensaje.</p>
         <p style="margin-top: 20px;">
-          © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+          © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
         </p>
       </div>
       
@@ -437,7 +437,7 @@ try {
         <div style="max-width: 800px; margin: 0 auto; background-color: #ffffff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); overflow: hidden;">
           
           <div style="text-align: center; background-color: #a1f48f; padding: 20px;">
-            <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png" alt="EDUKA" style="width: 160px;" />
+            <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png" alt="EDUKA" style="width: 160px;" />
           </div>
 
           <div style="padding: 25px;">

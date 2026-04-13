@@ -352,7 +352,7 @@ const create = catchError(async (req, res) => {
 
    await sendEmail({
   to: email,
-  subject: "Verificación de correo electrónico - UNICAL",
+  subject: "Verificación de correo electrónico - UNICAP",
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
     
@@ -372,8 +372,8 @@ const create = catchError(async (req, res) => {
           border-radius: 16px;
           box-shadow: 0 6px 18px rgba(0,0,0,0.18);
         ">
-          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-               alt="UNICAL"
+          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+               alt="UNICAP"
                style="
                  width: 240px;
                  max-width: 100%;
@@ -392,7 +392,7 @@ const create = catchError(async (req, res) => {
         </h1>
 
         <h2 style="font-weight: normal; margin-bottom: 15px; color:#444;">
-          Bienvenido a UNICAL
+          Bienvenido a UNICAP
         </h2>
 
         <!-- Línea decorativa -->
@@ -405,7 +405,7 @@ const create = catchError(async (req, res) => {
         "></div>
 
         <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
-          Gracias por registrarte en <strong>UNICAL - Universidad Integral del Caribe y América Latina</strong>.
+          Gracias por registrarte en <strong>UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ</strong>.
         </p>
 
         <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
@@ -440,7 +440,7 @@ const create = catchError(async (req, res) => {
       <div style="background-color: #f0f0f0; text-align: center; padding: 20px; font-size: 13px; color: #666;">
         <p>Este es un correo automático, por favor no respondas a este mensaje.</p>
         <p style="margin-top: 15px;">
-          © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+          © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
         </p>
       </div>
 
@@ -473,7 +473,7 @@ const create = catchError(async (req, res) => {
 
 await sendEmail({
   to: email,
-  subject: "Verificación de correo electrónico - UNICAL",
+  subject: "Verificación de correo electrónico - UNICAP",
   html: `
     <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
       
@@ -493,8 +493,8 @@ await sendEmail({
             border-radius: 16px;
             box-shadow: 0 6px 18px rgba(0,0,0,0.18);
           ">
-            <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-                 alt="UNICAL"
+            <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+                 alt="UNICAP"
                  style="
                    width: 220px;
                    max-width: 100%;
@@ -513,7 +513,7 @@ await sendEmail({
           </h1>
 
           <h2 style="font-weight: normal; color:#444;">
-            Gracias por registrarte en <strong>UNICAL</strong>
+            Gracias por registrarte en <strong>UNICAP</strong>
           </h2>
 
           <!-- Línea decorativa -->
@@ -554,7 +554,7 @@ await sendEmail({
 
         <!-- Footer -->
         <div style="background-color: #f0f0f0; text-align: center; padding: 15px; font-size: 12px; color: #999;">
-          © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+          © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
         </div>
 
       </div>
@@ -1058,7 +1058,7 @@ const sendEmailResetPassword = catchError(async (req, res) => {
   });
 await sendEmail({
   to: email,
-  subject: "Restablecer tu contraseña - UNICAL",
+  subject: "Restablecer tu contraseña - UNICAP",
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 20px; color: #333;">
     
@@ -1078,8 +1078,8 @@ await sendEmail({
           border-radius: 16px;
           box-shadow: 0 6px 18px rgba(0,0,0,0.18);
         ">
-          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1775011838/unical-sf_ngqle3.png"
-               alt="UNICAL"
+          <img src="https://res.cloudinary.com/desgmhmg4/image/upload/v1776062170/unicap_sf_fq5ih0.png"
+               alt="UNICAP"
                style="
                  width: 220px;
                  max-width: 100%;
@@ -1138,7 +1138,7 @@ await sendEmail({
 
       <!-- Footer -->
       <div style="background-color: #f0f0f0; text-align: center; padding: 15px; font-size: 12px; color: #999;">
-        © ${new Date().getFullYear()} UNICAL - Universidad Integral del Caribe y América Latina
+        © ${new Date().getFullYear()} UNICAP - UNIVERSIDAD INTERNACIONAL IGNACIO CASTRO PÉREZ
       </div>
 
     </div>
